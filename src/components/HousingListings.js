@@ -48,7 +48,7 @@ const HousingListings = () => {
     return (
         <div>
             <h2 class="text-center">Housing Listings</h2>
-            <BootstrapTable keyField="id" data={housingData} columns={columns} striped hover condensed />
+            {/* <BootstrapTable keyField="id" data={housingData} columns={columns} striped hover condensed /> */}
         </div>
     );
 }
