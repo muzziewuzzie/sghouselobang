@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { listHousings } from "../graphql/queries";
 import { API } from "aws-amplify";
-import BootstrapTable from "react-bootstrap-table-next";
+// import BootstrapTable from "react-bootstrap-table-next";
 
 const HousingListings = () => {
 
